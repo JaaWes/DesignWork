@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box
+}
+
+img
+iframe
+video
+audio {
+    max-width: 100%;
+}
+
 body {
 background-color: black;
 background-image: url(resources/Background.jpg);
@@ -5,5 +16,39 @@ background-repeat: no-repeat ;
 }
 
 main { 
-background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.5); 
+background-size: cover
+
+}
+
+/* navigation */ 
+
+nav {
+    background-color: bisque
+}
+
+nav ul {
+    display: flex;
+    Justify-content:space-evenly;
+    list-style: none;
+}
+
+/* general layout stuff */
+
+.col-layout {
+     background-color: blue
+}
+
+@media screen and (min-width: 800px) {
+    .col-layout {
+        background-color: white;
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 50px;
+
+    
+    }
+   
+
 }
