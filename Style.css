@@ -20,11 +20,29 @@ background-color: rgba(0, 0, 0, 0.5);
 background-size: cover
 
 }
+/* global layout stuff */
+.site-name {
+    font-size: 50px;
+    font-weight: bold; 
+    color: whitesmoke
+}
 
+/* global typography*/
+
+a {
+    color: rgb(16, 16, 46)
+
+}
+
+.col-layout {
+     background-color: blue
+}
 /* navigation */ 
 
 nav {
-    background-color: bisque
+    background-color: rgba(255, 228, 196, 0.39);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav ul {
@@ -35,16 +53,6 @@ nav ul {
 
 /* general layout stuff */
 
-/* global layout stuff */
-.site-name {
-    font-size: 50px;
-    font-weight: bold; 
-    color: whitesmoke
-}
-
-.col-layout {
-     background-color: blue
-}
 
 @media screen and (min-width: 800px) {
     .col-layout {
