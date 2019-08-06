@@ -34,6 +34,21 @@ a {
 
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+
+
+
 .col-layout {
      background-color: blue
 }
@@ -43,6 +58,18 @@ nav {
     background-color: rgba(255, 228, 196, 0.39);
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+nav a {
+font-size: 24px;
+text-decoration: none;
+transition: 0.5s;
+}
+
+nav a:hover {
+    color: goldenrod;
+    font-size: 32px;
+    
 }
 
 nav ul {
@@ -62,8 +89,26 @@ nav ul {
         grid-template-columns: 50% 50%;
         grid-gap: 50px;
 
+        
     
+        }
     }
-   
+    
+
+/* Artile styles */
+
+article {
+    background-color: #f1f1f1;
+    padding: 20px
+
+}
+.sub-item {
+    max-width: 700px;
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+
+    margin-left: auto; 
+    margin-right: auto;
 
 }
