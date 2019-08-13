@@ -10,13 +10,13 @@ audio {
 }
 
 body {
-background-color: black;
+background-color:  white;
 background-image: url(resources/Background.jpg);
 background-repeat: no-repeat ;
 }
 
 main { 
-background-color: rgba(0, 0, 0, 0.5); 
+background-color: white (0, 0, 0, 0.5); 
 background-size: cover
 
 }
@@ -50,7 +50,7 @@ h3 {
 
 
 .col-layout {
-     background-color: blue
+     background-color: navajowhite
 }
 /* navigation */ 
 
